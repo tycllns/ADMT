@@ -15,7 +15,7 @@ namespace ADMT_Revised
         AD_Utilities AD_UT = new AD_Utilities("Domain.com");
         UI_Utilities UI_UT = new UI_Utilities();
 
-        // Constructor
+        // Constructor-Method
 
         public MainWindow()
         {
