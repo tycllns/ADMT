@@ -226,7 +226,7 @@
                     </Style>
                 </StackPanel.Resources>
                 <TextBox Margin="0,0,0,10" x:Name="txtUCUserName" TextWrapping="Wrap" Height="30" TabIndex="0"/>
-                <PasswordBox Margin="0,0,0,10" x:Name="txtUCPassword"  Height="30"  TabIndex="1" ContextMenuClosing="txtUCPassword_ContextMenuClosing" TextInput="txtUCPassword_TextInput" PasswordChanged="txtUCPassword_PasswordChanged"/>
+                <PasswordBox Margin="0,0,0,10" x:Name="txtUCPassword"  Height="30"  TabIndex="1" PasswordChanged="txtUCPassword_PasswordChanged"/>
                 <PasswordBox x:Name="txtUCConfirm" Height="30" IsEnabled="False" TabIndex="2" PasswordChanged="txtUCConfirm_PasswordChanged"/>
                 <TextBox x:Name="txtUCFirstName" TextWrapping="Wrap" Height="30" TabIndex="3"/>
                 <TextBox x:Name="txtUCLastName" TextWrapping="Wrap" Height="30" TabIndex="4"/>
